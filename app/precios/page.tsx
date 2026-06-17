@@ -152,13 +152,12 @@ export default function PreciosPage() {
                   <span className="text-5xl font-bold text-foreground/30">—</span>
                 </div>
 
-                <Button
+                <button
                   disabled
-                  className="w-full font-semibold mb-8"
-                  variant="outline"
+                  className={cn(buttonVariants({ variant: 'outline' }), 'w-full font-semibold mb-8')}
                 >
                   Próximamente
-                </Button>
+                </button>
 
                 {/* Divider */}
                 <div className="border-t border-border mb-6" />
