@@ -66,8 +66,8 @@ export function HeroSection() {
           id="hero-heading"
           className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance"
         >
-          <span className="text-primary">Dátil con IA</span> apoya a{' '}
-          <span className="relative inline-block min-w-[14rem]">
+          <div>Dátil con IA apoya a</div>
+          <div className="relative inline-block min-w-[14rem]">
             <span
               className={`inline-block transition-all duration-400 text-primary/80 ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3'
@@ -77,8 +77,8 @@ export function HeroSection() {
             >
               {words[currentIndex]}
             </span>
-          </span>{' '}
-          de dátil a brindar respuestas inteligentes.
+          </div>
+          <div>de dátil a brindar respuestas inteligentes.</div>
         </h1>
 
         {/* CTA */}
